@@ -1,0 +1,40 @@
+.bg-cover {
+    background-image: url(img/background_index.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+div>a {
+    text-decoration: none;
+    color: white;
+}
+
+#servicios {
+    writing-mode: vertical-rl;
+    text-orientation:upright;
+    font-size:7vw;
+}
+
+.card {
+    font-size: 120%;
+}
+
+@media screen and (max-width: 900px) {
+    #servicios {
+        writing-mode: horizontal-tb;
+        text-orientation:initial;
+        font-size:9vw;
+        padding: 3rem 0 0 2rem;
+    }
+
+    #tabla {
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+    }
+
+    #grid-item {
+        margin-bottom: 2rem;
+    }
+}
