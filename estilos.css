@@ -21,20 +21,42 @@ div>a {
 
 .card {
     font-size: 120%;
-    height: 33%;
+    height: 33.5%;
     transition: 0.5s;
-
 }
 
 .card:hover {
     transform: scale(1.05);
 }
 
+.row {
+    margin: 0 0 0 0;
+}
+
+#background-servicios {
+	background: linear-gradient(-45deg, #862c9c, #1b7a9c, #1da183);
+	background-size: 200% 200%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
 @media screen and (max-width: 900px) {
     #servicios {
         writing-mode: horizontal-tb;
         text-orientation:initial;
-        font-size:9vw;
+        font-size:12vw;
         padding: 3rem 0 0 2rem;
         background-image: none;
     }
@@ -43,6 +65,32 @@ div>a {
         display: grid;
         grid-template-columns: auto;
         width: 100%;
+    }
+
+    #grid-item {
+        margin-bottom: 2rem;
+    }
+
+    .card {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 900px){
+
+    #servicios {
+        writing-mode: horizontal-tb;
+        text-orientation:initial;
+        font-size:6vw;
+        padding: 3rem 0 0 2rem;
+        background-image: none;
+    }
+
+    #tabla {
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;
+        width: 70%;
     }
 
     #grid-item {
