@@ -14,10 +14,20 @@ div>a {
     writing-mode: vertical-rl;
     text-orientation:upright;
     font-size:7vw;
+    background-image: url(img/background_index.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .card {
     font-size: 120%;
+    height: 33%;
+    transition: 0.5s;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 900px) {
@@ -26,6 +36,7 @@ div>a {
         text-orientation:initial;
         font-size:9vw;
         padding: 3rem 0 0 2rem;
+        background-image: none;
     }
 
     #tabla {
@@ -36,5 +47,9 @@ div>a {
 
     #grid-item {
         margin-bottom: 2rem;
+    }
+
+    .card {
+        height: auto;
     }
 }
