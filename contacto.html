@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 
     <!--Hoja de estilos-->
+    <link rel="stylesheet" href="/estilos.css">
     
-
     <title>Booking</title>
 </head>
 <body>
@@ -32,7 +32,7 @@
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <hr>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="index.html">Inicio</a>
+                                    <a class="nav-link" href="index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="destinos.html">Destinos</a>
@@ -44,7 +44,7 @@
                                     <a class="nav-link" href="nosotros.html">Nosotros</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contacto.html">Contacto</a>
+                                    <a class="nav-link active" href="contacto.html">Contacto</a>
                                 </li>
                             </ul>
                         </div>
@@ -53,11 +53,87 @@
                 <!-- Navbar -->
             </header>
         </div>
-        <div class="mt-3 py-5">
-            <h1>There are no staged changes to commit.</h1>
-            <h2>There are no staged changes to commit.</h2>
-            <h3>There are no staged changes to commit.</h3>
+         
+        <!-- contacto -->
+        <div class="container">
+        <div class="row mt-5 py-5">
+            <div class="col-sm-6">
+                <h4>CONVERSEMOS</h4>
+                <h3>CONTÁCTANOS</h3>
+                <h4 class="mt-5">ENVÍANOS TU CONSULTA</h4>
+                <p>Nuestra Área de Reservas te estará respondiendo a la brevedad. También puedes comunicarte con nosotros a través de WhatsApp y e-mail.</p>
+                <h5>DIRECCIÓN</h5>
+                <p>José Pardo 610, mezzanine 38, Miraflores LIMA 18</p>
+                <h5>TELÉFONOS:</h5>
+                <p class="mt-3">(+51) 991-239-003</p>
+                <p>(+51) 998-450-134</p>
+                <h5>CORREO:</h5>
+                <p>Bookingviajes@contacto.com</p>
+                <h5>SÍGUENOS EN NUESTRAS REDES</h5>
+                 
+                <!-- Redes Sociales -->
+                <ul class="icono mt-3">
+                    <a target="_blank" href="https://www.facebook.com/login/?next=%2Fmarketplace%2F">
+                        <li>
+                            <img src="/iconos/facebook.svg" title="facebook" alt="facebook" width="32" height="32">
+                        </li>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <li>
+                            <img src="/iconos/instagram.svg" title="instagram" alt="instagram" width="32" height="32">
+                        </li>
+                    </a>
+                    <a target="_blank" href="https://www.tiktok.com/es/">
+                        <li>
+                            <img src="/iconos/tiktok.svg" title="tiktok" alt="tiktok" width="32" height="32">
+                        </li>   
+                    </a>
+                </ul>
+            </div>
+            <!-- Formulario -->
+            <div class="col-sm-6 mt-5 py-5">
+                <form action="/action_page.php">
+                    <div class="mb-3 mt-3">
+                      <label for="nombre" class="form-label">NOMBRE Y APELLIDOS:</label>
+                      <input type="nombre" class="form-control" id="nombre" placeholder="Ingrese su nombre completo" name="nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">EMAIL:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingrese su email" name="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="dni" class="form-label">DNI:</label>
+                        <input type="dni" class="form-control" id="dni" placeholder="Ingrese su DNI" name="dni">
+                    </div>
+                    <div class="mb-3">
+                        <label for="cel" class="form-label">TELÉFONOS:</label>
+                        <input type="cel" class="form-control" id="dni" placeholder="Ingrese su DNI" name="cel">
+                    </div>
+                    <div class="mb-3">
+                        <label for="asunto" class="form-label">ASUNTO:</label>
+                        <input type="asunto" class="form-control" id="asunto" placeholder="Escribe un asunto" name="asunto">
+                    </div>
+                    <label for="comment">MENSAJE:</label>
+                    <textarea class="form-control" placeholder="Dejanos saber tus dudas" rows="5" id="comment" name="text"></textarea>
+                    <div class="form-check mb-3">
+                        <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="remember"> Recuerdame
+                      </label>
+                    </div>
+                    <center><button type="submit" class="btn btn-primary">ENVIAR</button></center>
+                  </form>
+            </div>
         </div>
+      </div>
     </main>
+    <div>
+        <iframe class="w-100 container-fluid mt-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124871.18345818132!2d-77.06014138114034!3d-12.028060888297446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c83d3521504d%3A0x8834306049a377b!2sAgencia%20de%20viajes%20Peruvian%20Travel!5e0!3m2!1ses!2spe!4v1675457388662!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <div>
+        <footer class="">
+            
+        </footer>
+    </div>
 </body>
 </html>
