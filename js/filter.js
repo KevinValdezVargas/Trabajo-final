@@ -26,8 +26,8 @@ function outputGoods(goods) {
     .map(
       (n) => `
       <div class="single-goods">
-      <div class="">
-        <div class="card shadow-sm">
+      <div class="mb-4 me-4">
+        <div class="card shadow-sm p-2">
           <h3 class="text-center mt-3 mb-3">${n.name}</h3>
           <img src="${n.image}" class="img-fluid mx-auto" alt="travel image product>
           <div class="card-body">
