@@ -6,6 +6,16 @@
     user-select: none;
   }
 
+  .icono li{
+    list-style: none;
+    display: inline-block;
+    padding: 7px;
+}
+
+.icono li a{
+    padding-right: 5px;
+}
+
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
