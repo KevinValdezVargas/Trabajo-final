@@ -11,3 +11,12 @@
       font-size: 3.5rem;
     }
 }
+
+.row {
+  margin: 0 0 0 0;
+}
+
+#goods {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+}

@@ -11,9 +11,6 @@
     <!--Hoja de estilos-->
     <link rel="stylesheet" href="destinos.css">
 
-    <!-- Archivo JS Bootstrap 5 -->  
-    <script src="js/bootstrap.bundle.min.js"></script>
-
     <!--Font text-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -94,220 +91,89 @@
                 </div>
             </div>
 
-            <div class="album py-5 bg-light">
-                <div class="container">
-                    <h2>Más populares:</h2>
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="img/sun-travel.jpg" alt="">
-                                <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                        additional
-                                        content. This content is a little bit longer.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-sm btn-success" href="#">Comprar</a>
-                                            <a class="btn btn-sm btn-primary" href="recomendaciones.html">Ver más</a>
-                                        </div>
-                                        <small class="text-muted">99$</small>
-                                    </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <div id="filters" class="card p-2 text-bg-light">
+                    <div class="tipo_viaje">
+                        <legend class="">Tipos de viaje</legend>
+                        <select id="tipo_viaje" class="form-select">
+                            <option value="">Selecciona una opción</option>
+                            <option value="verano">De Verano</option>
+                            <option value="excursiones">Excursiones</option>
+                            <option value="grupo">En Grupo</option>
+                            <option value="tour">Tours</option>
+                        </select>
+                    </div>
+        
+                    <div class="dias">
+                        <legend class="">Duración</legend>
+                        <div id="dias" class="form-check">
+                            <div class="">
+                                <div class="">
+                                    <input type="checkbox" class="form-check-input" value="3" />
+                                </div>
+                                <div class="">
+                                    <label class="">3 días</label>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="img/sun-travel.jpg" alt="">
-                                <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                        additional
-                                        content. This content is a little bit longer.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-sm btn-success" href="#">Comprar</a>
-                                            <a class="btn btn-sm btn-primary" href="recomendaciones.html">Ver más</a>
-                                        </div>
-                                        <small class="text-muted">99$</small>
-                                    </div>
+                            <div class="">
+                                <div class="">
+                                    <input type="checkbox" class="form-check-input" value="4" />
+                                </div>
+                                <div class="">
+                                    <label class="">4 días</label>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="img/sun-travel.jpg" alt="">
-                                <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                        additional
-                                        content. This content is a little bit longer.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-sm btn-success" href="#">Comprar</a>
-                                            <a class="btn btn-sm btn-primary" href="recomendaciones.html">Ver más</a>
-                                        </div>
-                                        <small class="text-muted">99$</small>
-                                    </div>
+                            <div class="">
+                                <div class="">
+                                    <input type="checkbox" class="form-check-input" value="5" />
+                                </div>
+                                <div class="">
+                                    <label class="">5 días</label>
                                 </div>
                             </div>
-                        </div>
-            
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="img/sun-travel.jpg" alt="">
-                                <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                        additional
-                                        content. This content is a little bit longer.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-sm btn-success" href="#">Comprar</a>
-                                            <a class="btn btn-sm btn-primary" href="recomendaciones.html">Ver más</a>
-                                        </div>
-                                        <small class="text-muted">99$</small>
-                                    </div>
+                            <div class="">
+                                <div class="">
+                                    <input type="checkbox" class="form-check-input" value="6" />
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="img/sun-travel.jpg" alt="">
-                                <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                        additional
-                                        content. This content is a little bit longer.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-sm btn-success" href="#">Comprar</a>
-                                            <a class="btn btn-sm btn-primary" href="recomendaciones.html">Ver más</a>
-                                        </div>
-                                        <small class="text-muted">99$</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="img/sun-travel.jpg" alt="">
-                                <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                        additional
-                                        content. This content is a little bit longer.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-sm btn-success" href="#">Comprar</a>
-                                            <a class="btn btn-sm btn-primary" href="recomendaciones.html">Ver más</a>
-                                        </div>
-                                        <small class="text-muted">99$</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="img/sun-travel.jpg" alt="">
-                                <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                        additional
-                                        content. This content is a little bit longer.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-sm btn-success" href="#">Comprar</a>
-                                            <a class="btn btn-sm btn-primary" href="recomendaciones.html">Ver más</a>
-                                        </div>
-                                        <small class="text-muted">99$</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="img/sun-travel.jpg" alt="">
-                                <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                        additional
-                                        content. This content is a little bit longer.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-sm btn-success" href="#">Comprar</a>
-                                            <a class="btn btn-sm btn-primary" href="recomendaciones.html">Ver más</a>
-                                        </div>
-                                        <small class="text-muted">99$</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="img/sun-travel.jpg" alt="">
-                                <div class="card-body">
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                        additional
-                                        content. This content is a little bit longer.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-sm btn-success" href="#">Comprar</a>
-                                            <a class="btn btn-sm btn-primary" href="recomendaciones.html">Ver más</a>
-                                        </div>
-                                        <small class="text-muted">99$</small>
-                                    </div>
+                                <div class="">
+                                    <label class="">6 días</label>
                                 </div>
                             </div>
                         </div>
                     </div>
+        
+                    <div class="price">
+                        <legend class="">Precio</legend>
+                        <div class="d-flex">
+                            <div class="price-input ms-2">
+                                <input class="form-control" type="text" value="" id="price-min" placeholder="Desde"/>
+                            </div>
+                            <div class="price-input ms-2">
+                                <input class="form-control" type="text" value="" id="price-max" placeholder="Hasta"/>
+                            </div>
+                            <div class="">&nbsp;S/&nbsp;</div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="col-9">
+                <div id="goods" class=""></div>
+            </div>
+            
+            
         </div>
-
-        <div id="accordion">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Más populares
-                  </button>
-                </h5>
-              </div>
-          
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Collapsible Group Item #2
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Collapsible Group Item #3
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-          </div>
-          
-
+        
     </main>
 
 
 </body>
+<!-- Archivo JS Bootstrap 5 -->  
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<!-- Script filtro -->
+<script src="js/filter.js"></script>
 
 </html>
