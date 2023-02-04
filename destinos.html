@@ -71,13 +71,13 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="img/banner1.jpg" class="d-block w-100" alt="...">
+                            <img src="img/banner1.jpg" class="d-block w-100" alt="banner travel discount">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="img/banner2.jpg" class="d-block w-100" alt="...">
+                            <img src="img/banner2.jpg" class="d-block w-100" alt="banner travel discount">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/banner3.jpg" class="d-block w-100" alt="...">
+                            <img src="img/banner3.jpg" class="d-block w-100" alt="banner travel discount">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -96,6 +96,7 @@
         <div class="row">
             <div class="col-3">
                 <div id="filters" class="card p-2 text-bg-light">
+                    <form action="">
                     <div class="tipo_viaje">
                         <legend class="">Tipos de viaje</legend>
                         <select id="tipo_viaje" class="form-select">
@@ -109,38 +110,22 @@
         
                     <div class="dias">
                         <legend class="">Duración</legend>
-                        <div id="dias" class="form-check">
-                            <div class="">
-                                <div class="">
-                                    <input type="checkbox" class="form-check-input" value="3" />
-                                </div>
-                                <div class="">
-                                    <label class="">3 días</label>
-                                </div>
+                        <div id="dias" class="">
+                            <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="option1" value="3" />
+                                    <label for="check1" class="form-check-label">3 días</label>
                             </div>
-                            <div class="">
-                                <div class="">
-                                    <input type="checkbox" class="form-check-input" value="4" />
-                                </div>
-                                <div class="">
-                                    <label class="">4 días</label>
-                                </div>
+                            <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="check2" name="option2" value="4" />
+                                    <label for="check2" class="form-check-label">4 días</label>
                             </div>
-                            <div class="">
-                                <div class="">
-                                    <input type="checkbox" class="form-check-input" value="5" />
-                                </div>
-                                <div class="">
-                                    <label class="">5 días</label>
-                                </div>
+                            <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="check3" name="option3" value="5" />
+                                    <label for="check3" class="form-check-label">5 días</label>
                             </div>
-                            <div class="">
-                                <div class="">
-                                    <input type="checkbox" class="form-check-input" value="6" />
-                                </div>
-                                <div class="">
-                                    <label class="">6 días</label>
-                                </div>
+                            <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="check4" name="option4" value="6" />
+                                    <label for="check4" class="form-check-label">6 días</label>
                             </div>
                         </div>
                     </div>
@@ -154,9 +139,9 @@
                             <div class="price-input ms-2">
                                 <input class="form-control" type="text" value="" id="price-max" placeholder="Hasta"/>
                             </div>
-                            <div class="">&nbsp;S/&nbsp;</div>
                         </div>
                     </div>
+                    </form>
                 </div>
             </div>
             <div class="col-9">

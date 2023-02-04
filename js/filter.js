@@ -29,9 +29,9 @@ function outputGoods(goods) {
       <div class="">
         <div class="card shadow-sm">
           <h3 class="text-center mt-3 mb-3">${n.name}</h3>
-          <img src="${n.image}" class="img-fluid mx-auto">
+          <img src="${n.image}" class="img-fluid mx-auto" alt="travel image product>
           <div class="card-body">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto repellat amet in corrupti aspernatur, quam maxime qui, ducimus eius ad vel odio commodi perferendis rem excepturi consequuntur rerum neque placeat.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a class="btn btn-sm btn-success" href="#">Comprar</a>
