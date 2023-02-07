@@ -54,6 +54,10 @@ div>a {
     padding: 0 0 0 0;
 }
 
+nav {
+    font-family: 'Heebo', sans-serif;
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
