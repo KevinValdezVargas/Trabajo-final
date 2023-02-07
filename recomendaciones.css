@@ -124,3 +124,8 @@
   .blog-footer p:last-child {
     margin-bottom: 0;
   }
+
+  #footer-img {
+    margin: 0 0 0;
+    padding: 0 0 0 0;
+}

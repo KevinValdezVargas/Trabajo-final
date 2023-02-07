@@ -35,6 +35,11 @@
   padding-right: 5px;
 }
 
+#footer-img {
+  margin: 0 0 0;
+  padding: 0 0 0 0;
+}
+
 @media screen and (max-width: 900px) {
   #goods {
     display: grid;
@@ -64,3 +69,4 @@
   }
 
 }
+

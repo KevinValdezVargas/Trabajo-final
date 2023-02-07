@@ -7,3 +7,27 @@
 .icono li a{
     padding-right: 5px;
 }
+
+.container6{
+    background-image: url(img/principal.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: #fff;
+    font-size: 35px;
+    padding: 45px;
+}
+h2{
+    background: #ccc;
+    background: linear-gradient(270deg, #1b004b, #7f00b2, #4c007d);
+    font-family: system-ui;
+    font-size: 3rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#footer-img {
+    margin: 0 0 0;
+    padding: 0 0 0 0;
+}
